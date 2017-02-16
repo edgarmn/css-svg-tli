@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script src="../node_modules/chai/chai.js"></script>
+    <script>
+      mocha.setup('bdd');
+      const assert = chai.assert;
+    </script>
+    <script src="../tLi.js"></script>
+		<script src="test-utils.js"></script>
+    <script src="tLi.spec.js"></script>
+    <script src="TransformList.spec.js"></script>
+    <script src="TransformItem.spec.js"></script>
+	</head>
+	<body>
+    <div id="mocha"></div>
+		<script type="text/javascript">
+      mocha.run();
+		</script>
+	</body>
+</html>
