@@ -15,7 +15,7 @@ CSSTransformItem.prototype.translate = function(x, y) {
   if (typeof x === "number") x += "px";
   if (y && typeof y === "number") y += "px";
 
-  return TransformItem.prototype.translate.apply(this, arguments);
+  return TransformItem.prototype.translate.call(this, x, y);
 };
 
 CSSTransformItem.prototype.rotate = function(deg) {
