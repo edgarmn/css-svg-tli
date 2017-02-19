@@ -2,20 +2,28 @@
   "name": "css-svg-tli",
   "version": "1.0.0",
   "description": "Small library for manipulating css or svg transforms.",
-  "main": "src/",
+  "main": "dist/tLi.js",
   "keywords": [
     "css",
     "svg",
-    "transforms"
+    "transform"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/edgarmn/css-svg-tli.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edgarmn/css-svg-tli.git"
   },
   "author": "@edgarmn",
   "license": "MIT",
   "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "browserify": "^14.1.0",
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1",
+    "mocha": "^3.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
