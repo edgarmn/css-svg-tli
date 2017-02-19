@@ -1,6 +1,6 @@
 {
   "name": "css-svg-tli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small library for manipulating css or svg transforms.",
   "main": "dist/tLi.js",
   "keywords": [
